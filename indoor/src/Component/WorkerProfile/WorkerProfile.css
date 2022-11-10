@@ -1,0 +1,123 @@
+.comment3
+{
+    display: flex;
+    overflow:hidden;
+    justify-content:space-around;
+    flex-wrap: wrap;
+   
+}
+.WorkProfile
+{   
+  margin-top: 7em;
+  margin-bottom: 1em;
+}
+.flu1
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flu
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.work
+{
+  background-color: white;
+  overflow:hidden;
+  width: 500px;
+  box-shadow: 0 0 4px grey,0 4px 8px grey; 
+  
+  
+}
+
+.work-img2 img
+{ display:flex;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 40px;
+  height:140px;
+  border-radius:50%;
+  border:7px solid #fff;
+  width:140px;
+}
+
+.work:hover .work-img2 img{
+    border-color:darkcyan;
+    transition:.7s;
+}
+.main-text1{
+    padding:20px 0 ;
+    text-align:center;
+}
+
+.fcontainer1
+{
+  
+  margin-bottom: 20px;
+  margin-top: 4px;
+  
+}
+.fcontainer1 h5
+{
+  margin-top: 10px;
+  }
+
+.work-button
+{ 
+  width: 150px;
+  border-color: black;
+  background: black;
+  color: white;
+}
+.work-button:hover
+{
+  color: black;
+  background: white;
+}
+.edit-work-button{
+  margin-top: 17px;
+  width: fit-content;
+  background: black;
+  text-decoration: none;
+}
+.edit-work-button:hover{
+  background: darkcyan;
+  text-decoration: none;
+}
+.profession{
+  background: black;
+  color:white;
+  width: 100px;
+  margin-top: 10px;
+  border-color: white;
+}
+.profession:hover{
+  color: black;
+  background: white;
+  border-color: black;
+}
+.profession:focus {
+  background-color:white;
+  color:black;
+}
+.done{
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  justify-content: space-around;
+  
+}
+@media (max-width: 600px) {
+.work
+{
+  width: 335px;
+}
+.chatbox {
+  width: 335px;
+}
+}
+

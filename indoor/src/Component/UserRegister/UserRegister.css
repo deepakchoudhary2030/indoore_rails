@@ -1,0 +1,33 @@
+.usec
+{
+  
+  margin-top: 8em;
+
+}
+
+
+.usec .usec1 
+{
+  padding-top: 20px;
+ text-align: center;
+ 
+}
+.btn1
+{align-items: center;
+  border:none;
+  outline: none;
+  height: 50px;
+  width: 40%;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.btn1:hover
+{
+  background: white;
+  border: 1px solid;
+  color: black;
+}
+
+

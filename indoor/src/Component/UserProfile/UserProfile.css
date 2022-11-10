@@ -1,0 +1,115 @@
+
+
+.UserProfile
+{   
+  margin-top: 6em;
+  margin-bottom: 1em;
+}
+
+.car
+{
+  background-color: white;
+  border-radius:  30px;
+  overflow:hidden;
+  width: 600px;
+  box-shadow: 12px 12px 22px grey;
+  
+}
+
+.img1 img
+{
+  height:200px;
+  border-top-left-radius:15px;
+  border-top-left-radius:15px;
+  width:100%;
+}
+
+.img2 img
+{
+  position:relative;
+  display:flex;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: black;
+  width:140px;
+  height:140px;
+  border-radius:50%;
+  border:7px solid rgb(48, 37, 37);
+  margin-top:-80px;
+}
+.car:hover .img2 img{
+    border-color:darkcyan;
+    transition:.7s;
+}
+.main-text{
+    padding:20px 58px ;
+    text-align:center;
+}
+.main-text h2{
+    text-transform:uppercase;
+    font-weight:900;
+    font-size:20px;
+    margin:0 0 ;
+}
+.main-text p
+{
+    font-size:16px;
+    padding: 0 35px;
+}
+
+.fcontainer
+{
+  
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 4px;
+  
+}
+.fcontainer h6
+{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.button
+{ border-radius: 40px;
+  width: 80px;
+  border-color: black;
+  background: black;
+  color: white;
+}
+.button:hover
+{
+  color: black;
+  background: white;
+}
+@media (max-width: 764px) {
+.car
+{
+  
+  width: 335px;
+  
+  
+}
+.img-fluid
+{
+
+  height: 0%;
+  width: 0%;
+  }
+
+
+
+
+}
+@media (max-width: 968px) {
+.car
+{
+  
+  width:350px;
+  
+  
+}
+
+
+}

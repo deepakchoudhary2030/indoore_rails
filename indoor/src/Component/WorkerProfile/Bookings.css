@@ -1,0 +1,13 @@
+.booking
+{   
+ margin-top: 10em;
+}
+
+.red {
+  color: black;
+  text-decoration: none;
+}
+.red:hover
+{
+  color: red;
+}

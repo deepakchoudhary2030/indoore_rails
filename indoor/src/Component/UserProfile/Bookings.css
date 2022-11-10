@@ -1,0 +1,62 @@
+.H
+{
+	 position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 20px;}
+.colm
+{
+    text-decoration: none;
+    color: black;
+}
+.colm:hover
+{color: grey;}
+.checked 
+{color: orange;}
+.User12
+{text-align: center;
+margin-top: 8em;
+margin-bottom:5em;}
+
+.button2
+{ 
+  width: 100px;
+  height: 30px;
+  border-color: black;
+  background: black;
+  font-weight: bold;
+  color: white;
+  margin-bottom:6px; 
+}
+.button2:hover
+{
+  color: black;
+  background: white;
+}
+.Approved
+{
+    background: seagreen;
+    border-color: seagreen;
+    color: white;
+    font-weight: bold;
+    margin-left: 3px;
+    width: 100px;
+}
+.pending{
+    color: white;
+    font-weight: bold;
+    border-color: rgba(219, 18, 18, 0.918);
+    background: rgba(219, 18, 18, 0.918);
+    margin-left: 3px;
+    width: 100px;
+  }
+
+ 
+
+
+

@@ -1,0 +1,29 @@
+.jumb1 .link1
+{
+  text-decoration: none;
+  color: grey;
+}
+.jumb1 .link1:hover
+{
+  color: black;
+}
+.jumb1 h1
+{ text-align: center; 
+	margin-top: 5em;
+margin-bottom:2em;
+}
+
+.flex-item3
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.flex-item3 .icon-box {
+  padding: 20px 1px;
+  transition: ease-in-out 0.3s;
+  width: 15em;
+  height: 10em;
+  background-color: transparent;
+  text-align: center;
+}

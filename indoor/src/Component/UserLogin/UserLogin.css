@@ -1,0 +1,63 @@
+
+.log
+{ display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10%;
+  margin-left: 200px;
+  margin-bottom: 0px;
+}
+.log .log2
+{
+   
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-row .form-control
+{
+  border-radius: 30px;
+}
+.btn1
+{
+  border:none;
+  outline: none;
+  height: 50px;
+  width: 60%;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.btn1:hover
+{
+  background: white;
+  border: 1px solid;
+  color: black;
+}
+
+@media (min-width: 1024px) {
+  
+}
+
+@media (max-width: 989px) {
+.log
+{ margin-top: 30%;
+  margin-left: 12px;
+  margin-right: -25%;
+}
+.img-fluid
+{
+
+  height: 0%;
+  width: 0%;
+  }
+
+.log h1
+{
+  margin-left: 25%;
+}
+
+
+}
